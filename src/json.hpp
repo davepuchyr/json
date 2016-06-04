@@ -1057,7 +1057,7 @@ class basic_json
 
     @since version 1.0.0
     */
-    basic_json() = default;
+    basic_json() {} // dmjp = default;
 
     /*!
     @brief create a null object (explicitly)
